@@ -8,6 +8,7 @@
 <!-- http://localhost/btth02v2/index.php -->
 <!-- http://localhost/btth02v2/index.php?controller=home&action=index -->
 
+
 <!-- Controller là tên của FILE controller mà chúng ta sẽ gọi -->
 <!-- Action là tên cả HÀM trong FILE controller mà chúng ta gọi -->
 
