@@ -6,11 +6,11 @@ require("services/CategoryService.php");
 class ArticleController
 {
     // Hàm xử lý hành động index
-    public function index()
+    public function index($twig)
     {
         $articleService = new ArticleService();
         $articles = $articleService->getAllArticle();
-        include("view/article/article.php");
+        echo $twig->render('./view/article/article.twig', array('articles' => $articles));
         
     }
 
